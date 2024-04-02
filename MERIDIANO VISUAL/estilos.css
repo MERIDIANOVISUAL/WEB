@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:auto
+}
+.contenedor{
+    width: 1200px;
+    height: 1250px;
+    margin: auto;
+}
+#inicial{
+    height: 100px;
+    background-color:whitesmoke;
+    color: gray;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    padding: auto;
+    font-size:500%;
+}
+.primero{
+    height: 500px;
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    padding: 25px;
+}
+#segundo{
+    height: 500px;
+    background-color:grey;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+    
+}
+.tercero{
+    height: 500px;
+    background-color:black;
+    color: whitesmoke; 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    padding: 25px;
+}

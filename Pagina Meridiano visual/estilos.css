@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.menu{
+    background-color: darkorange;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    font-weight: 700;
+}
+.btn>a{
+    color: white;
+    text-decoration: none;
+}
+.btn>a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.banner>img{
+    width: 100%;
+}
+.texto{
+    padding-bottom: 2%;
+    line-height: 150%;
+    text-align: justify;
+    text-align: center;
+}
+.pie{
+    background-color: darkorange;
+    border-top: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+.pie>p{
+    flex-grow: 2;
+    color: rgb(0, 0, 0);
+}
+.redes{
+    margin-right: 1%;
+}
+.redes:hover{
+    filter: blur(100%); 
+}
+.caja01{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-direction: row;
+}
+.texti{
+    width: 50%;
+    padding: 4%;
+    line-height: 150%;
+    text-align: center;
+}
+.imagen{
+    width: 50%;
+    background-color: gray;
+}
+.imagen>img{
+    width: 100%;
+    height: 100%;
+}
+#reves{
+    flex-direction: row-reverse;
+}
+.caja02{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    flex-direction: row;
+}
+.texti2{
+    width: 70%;
+}
+.imagensita{
+    width: 30%;
+}
+#reves2{
+    flex-direction: row-reverse;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.fancy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fotos>img{
+    width: 100%;
+}
+.galeria{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.galeria>img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s ease;
+}
+.galeria>img:hover{
+    width: 20%;
+    opacity: 1;
+}
+@media(max-width 786px){
+    .contenedor{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        grid-template-areas:
+        "...titulo..."
+        "men men"
+        "banner banner"
+        "texto imagen"
+        "pie pie"
+    }
+}
+@media(min-width 1200px){
+    .contenedor{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        grid-template-areas:
+        "...titulo..."
+        "men men"
+        "banner banner"
+        "texto imagen"
+        "pie pie"
+    }
+}
